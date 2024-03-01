@@ -1,0 +1,54 @@
+ion-content {
+  --ion-background-color: #f2f2f2; // Fondo más claro
+}
+
+ion-row {
+  max-width: 600px; // Ancho máximo para mejorar la legibilidad
+  margin: 0 auto; // Centrar horizontalmente
+}
+
+ion-item {
+  --ion-background-color: #ffffff; // Fondo blanco para el input
+}
+
+.input-field {
+  font-size: 16px;
+}
+
+ion-button.search-button {
+  --ion-background-color: #ffcc00; // Color de fondo amarillo
+  --ion-color: #000000; // Color de texto negro
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ion-card.pokemon-card {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sutil sombra
+}
+
+ion-card-content {
+  padding: 20px;
+}
+
+ion-card-title.pokemon-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333; // Color de texto más oscuro
+}
+
+ion-img.pokemon-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; // Altura máxima para la imagen
+  border-radius: 10px; // Bordes redondeados
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Sutil sombra
+}
+
+ion-card-subtitle.pokemon-type {
+  color: #ffcc00; // Color de texto amarillo para los tipos
+  font-weight: bold;
+  font-size: 16px;
+}
+

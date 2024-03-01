@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pokedex-86525": {
+      "hosting": {
+        "app": [
+          "pokedex-86525"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pokedex-86525"
+  }
+}
